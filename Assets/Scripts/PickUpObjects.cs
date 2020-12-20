@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class PickUpObjects : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	//players collider
+	void OnTriggerEnter(Collider collider)
+	{
+		if (collider.gameObject.tag == "Player")
+		{
+			//show in term that object collected
+			print("Collected");
+			//remove object from screen
+			Destroy(gameObject);
+		}
+	}
 }

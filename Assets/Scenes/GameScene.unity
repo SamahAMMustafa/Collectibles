@@ -174,6 +174,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5092332866969421616}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &373731817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373731816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a5b16b6a6294a2b97b98618745ce2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &373731820 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5092332866663413468, guid: 062681b1f3c554fa5b937125aa0258f0,
@@ -186,6 +198,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7632040568509050776}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &420058892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420058891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a5b16b6a6294a2b97b98618745ce2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &420058895 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7632040568357632151, guid: bde5e5460fcb0473a86ebd7ed4347b6d,
@@ -324,6 +348,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2567675465158035217}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &549269981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549269980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a5b16b6a6294a2b97b98618745ce2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &549269984 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2567675464626091761, guid: 9c5073577887d4ceeb94577a72520cf7,
@@ -647,7 +683,7 @@ GameObject:
   - component: {fileID: 1064227417}
   m_Layer: 0
   m_Name: PLAYER
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
